@@ -1,0 +1,190 @@
+body{
+    background-color:#FAFAFA;
+    font-family: 'Arial Rounded MT Bold',sans-serif; 
+    width: 100%;
+    max-width: 980px;
+    min-width: 750px;
+    margin: 0 auto;
+}
+
+header{
+    height: 60px;
+    line-height: 40px;
+    background-color: #1D3B61;
+    color: #eee;
+    padding: 0 10px;
+    display: flex;
+    align-items: center; 
+    -webkit-box-shadow: -9px 11px 26px -5px rgba(179,175,179,1);
+    -moz-box-shadow: -9px 11px 26px -5px rgba(179,175,179,1);
+    box-shadow: -9px 11px 26px -5px rgba(179,175,179,1);
+}
+header h2 {
+    height: 40px;
+    padding-left: 20px;
+}
+
+#id-View{
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 2px solid #CBDAEF;
+    padding: 2px;
+    margin-left: 2%;
+    float: left;
+}
+
+#id-View-Latest-Update {
+    background-color:transparent;
+    border-color:transparent;
+    width: 10%;
+}
+
+#viewLastUpdateId{
+    border-collapse: collapse;
+    width: 90%;
+    margin:  0;
+    text-align: center;
+    float: right;
+    font-size: 14px; 
+}
+
+#viewLastUpdateId td , #viewLastUpdateId th , #id-View-Latest-Update{
+    border-right: 2px solid #CBDAEF;
+}
+
+#viewLastUpdateId td{
+    color: #FF4C3B;
+    font-size: 16px;
+}
+
+#viewLastUpdateId th {
+    color: #343736;
+    font-weight: bolder;
+}
+
+#refresh {
+    -webkit-animation: rotation 7s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(359deg);
+    }
+    to {
+            -webkit-transform: rotate(0deg);
+    }
+}
+
+
+.container{
+    width: 98%;
+    clear: both;
+    display: block;
+    margin: auto;
+  }
+  .left-panel, .right-panel{
+    width: 40%;
+    float: left;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .logo-image{
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+    margin-bottom: 15px;
+  }
+#showTableData, #btnEd{
+    border: none;
+    border-radius: 5px;
+    /* background-color: #3DB39E; */
+    background-color: #1D3B61;
+    color: #f2f2f2;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+#showTableData:hover, #btnEd:hover{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 75, 59);
+    color: white;
+    
+}
+.left-panel{
+    /* background-color: rgb(255, 75, 59); */
+    border-radius: 5px;
+    border: 2px solid #CBDAEF;
+    color: rgb(255, 75, 59);
+    font-weight: bold;
+    -webkit-box-shadow: -9px 11px 26px -5px rgba(179,175,179,1);
+    -moz-box-shadow: -9px 11px 26px -5px rgba(179,175,179,1);
+    box-shadow: -9px 11px 26px -5px rgba(179,175,179,1);
+}
+.left-panel button{
+    border: none;
+    background-color:   #1D3B61;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.left-panel button:hover{
+    border: none;
+    background-color:  rgb(255, 75, 59);
+    color: aliceblue;
+    border-radius: 5px;
+} 
+.left-panel input{ 
+    border: 1px solid rgba(29, 58, 97, 0.171);
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 98%;
+}
+.left-panel input:hover{ 
+    border: 1px solid rgba(29, 58, 97, 0.425);
+}
+
+
+#overschrijvingenTableId {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #1D3B61;
+
+}
+#overschrijvingenTableId td, #overschrijvingenTableId th {
+    border: 2px solid #CBDAEF;
+    padding: 5px;
+
+}
+#overschrijvingenTableId tr:nth-child(even){background-color: #f2f2f2;}
+
+#overschrijvingenTableId tr:hover {background-color: rgba(229, 250, 43, 0.5) ;}
+
+#overschrijvingenTableId th {
+  color: #FF4C3B;
+  font-weight: bolder;
+  background-color: whitesmoke;
+} 
+#idShowTableData{
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
